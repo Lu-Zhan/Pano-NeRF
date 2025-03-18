@@ -1,15 +1,15 @@
 # Pano-NeRF: Synthesizing High Dynamic Range Novel Views with Geometry from Sparse Low Dynamic Range Panoramic Images
 
 ## Installation
-# Clone the repo
+### Clone the repo
 https://github.com/Lu-Zhan/Pano-NeRF.git; cd Pano-NeRF
-# Create a conda environment
+### Create a conda environment
 conda create --name panonerf python=3.9.12; conda activate panonerf
-# Prepare pip
+### Prepare pip
 conda install pip; pip install --upgrade pip
-# Install PyTorch
+### Install PyTorch
 conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.7 -c pytorch -c nvidia
-# Install requirements
+### Install requirements
 pip install -r requirements.txt
 
 
@@ -47,6 +47,6 @@ If you find this project useful, please consider citing our paper:
 Thansks to [mipnerf](https://github.com/google/mipnerf),
 [mipnerf-pytorch](https://github.com/AlphaPlusTT/mipnerf-pytorch),
 [nerfplusplus](https://github.com/Kai-46/nerfplusplus),
-[nerf_pl](https://github.com/kwea123/nerf_pl)
-[mipnerf_pl](https://github.com/hjxwhy/mipnerf_pl)
-[Replica dataset](https://github.com/facebookresearch/Replica-Dataset)
+[nerf_pl](https://github.com/kwea123/nerf_pl),
+[mipnerf_pl](https://github.com/hjxwhy/mipnerf_pl),
+[Replica dataset](https://github.com/facebookresearch/Replica-Dataset).
