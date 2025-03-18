@@ -1,0 +1,8 @@
+exps/
+.vscode/
+__pycache__/
+wandb/
+*.png
+*.exr
+lightning_logs/
+data/demo_data
